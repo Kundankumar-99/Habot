@@ -159,13 +159,13 @@ export default function Home() {
       {/* Banner  */}
       <section className="w-full my-32 bg-[#E8FBFF]">
         <Container>
-          <div className="flex py-24 sm:flex-row gap-4 sm:gap-0 flex-col justify-center sm:justify-between ">
+          <div className="flex py-24 sm:flex-row gap-4 sm:gap-0 flex-col justify-center sm:justify-between sm:text-left text-center items-center">
             <h2 className="font-semibold text-[37px]">
               Let Suppliers{" "}
               <span className="border-b-4 border-[#EB7150]">Find You</span>
             </h2>
-            <button className="px-8 py-2 bg-[#EB7150] max-sm:w-[200px] text-white rounded-md font-bold text-[15px]">
-              Get Verified.
+            <button className="px-16 py-4 bg-[#EB7150] max-sm:w-1/2 text-white rounded-md font-bold text-[18px] mt-8 sm:mt-0">
+              Get Verified
             </button>
           </div>
         </Container>
@@ -180,7 +180,7 @@ export default function Home() {
               <h2 className="font-bold text-[37px] text-center">
                 How it works?
               </h2>
-              <p className="text-center w-2/3 mx-auto">
+              <p className="text-center w-full sm:w-2/3 mx-auto">
                 Buyers post their needs and review top suppliers, while
                 suppliers complete profiles, connect with potential buyers, and
                 build successful business relationships, sharing valuable
