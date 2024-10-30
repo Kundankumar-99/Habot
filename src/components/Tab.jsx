@@ -9,7 +9,7 @@ const Tabs = () => {
   };
 
   return (
-    <div className="max-w-5xl w-full mx-auto px-4 ">
+    <div className="max-w-5xl w-full h-[250px] mx-auto px-4 ">
       <div className="flex w-4/5 px-4 gap-8">
         <button
           className={`py-2  w-1/2 px-4 font-bold text-[26px]  focus:outline-none ${

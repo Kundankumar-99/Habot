@@ -145,7 +145,7 @@ export default function Home() {
       <section>
         <Container>
           <div className="container flex flex-col md:flex-row items-start gap-4 py-28 justify-center  mx-auto h-[700px] md:h-[550px] rounded-md bg-[#072F57]">
-            <div className=" w-full md:w-1/2 flex items-center justify-center  px-4 sm:ml-4 ">
+            <div className=" w-full md:w-1/2 flex items-center justify-center  px-4 sm:ml-4 ml-0">
               <Video videoId="IZLp-TZyDkQ" />
             </div>
 
