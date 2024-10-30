@@ -164,7 +164,7 @@ export default function Home() {
               Let Suppliers{" "}
               <span className="border-b-4 border-[#EB7150]">Find You</span>
             </h2>
-            <button className="px-16 py-4 bg-[#EB7150] max-sm:w-1/2 text-white rounded-md font-bold text-[18px] mt-8 sm:mt-0">
+            <button className="px-16 py-4 bg-[#EB7150] max-md:w-1/2 text-white rounded-md font-bold text-[18px] mt-8 sm:mt-0">
               Get Verified
             </button>
           </div>
