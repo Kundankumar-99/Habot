@@ -9,55 +9,12 @@ import ArrowRightIcon from "../assets/svgIcon/ArrowRightIcon";
 import Container from "../components/Container/Container";
 import Tabs from "../components/Tab";
 import Video from "../components/Video";
-import SignUpIcon from "../assets/svgIcon/SignUpIcon";
-import ConnectIcon from "../assets/svgIcon/ConnectIcon";
-import PostIcon from "../assets/svgIcon/PostIcon";
-import ReviewIcon from "../assets/svgIcon/ReviewIcon";
-import ProfileIcon from "../assets/svgIcon/ProfileIcon";
-import ShareIcon from "../assets/svgIcon/ShareIcon";
 import IconBox from "../components/IconBox";
+import { buttonData, IconData } from "../data/DataBase";
 
 export default function Home() {
-  const buttonData = [
-    "Abu Dhabi",
-    "Dubai",
-    "Sharjah & Ajman",
-    "Fujairah",
-    "Ras Al Khaimah",
-    "Umm Al Quwain",
-  ];
-
-  const IconData = [
-    {
-      IconText: "Select Your Role and Sign Up",
-      IconComponent: <SignUpIcon />,
-      backgroundColor: "bg-[#E8FBFF]",
-    },
-    {
-      IconText: "Buyers Post Your Requirements",
-      IconComponent: <PostIcon />,
-    },
-    {
-      IconText: "Review, Select, and Contact the Best Suppliers",
-      IconComponent: <ReviewIcon />,
-      backgroundColor: "bg-[#E8FBFF]",
-    },
-    {
-      IconText:
-        "Suppliers Complete your profile and get notified for opportunities",
-      IconComponent: <ProfileIcon />,
-    },
-    {
-      IconText: "Contact to Buyers and Share your Quote for the service",
-      IconComponent: <ShareIcon />,
-      backgroundColor: "bg-[#E8FBFF]",
-    },
-    {
-      IconText:
-        "Both the Parties can Connect and Make Business Leave a Feedback",
-      IconComponent: <ConnectIcon />,
-    },
-  ];
+  
+  
   return (
     <>
       {/* Hero Section */}
@@ -195,7 +152,7 @@ export default function Home() {
                   IconText={item.IconText}
                   backgroundColor={item.backgroundColor || "bg-transparent"} 
                 >
-                  {item.IconComponent}
+                  {React.createElement(item.IconComponent)}
                 </IconBox>
               ))}
             </div>
